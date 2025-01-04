@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WARFRAME Live Checker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body class="off">
+    <header class="hero">
+        <div class="container">
+            <p class="hero__text">
+                First April 12AM <br> <span id="contador"></span>
+            </p>
+            <p class="subtitle">
+                Tune up for the next Warframe DEV Stream! 
+            </p>
+            <button type="button">CLICK HERE</button>
+        </div>
+    </header>
+    <section class="fatos">
+        <p class="fatos__title">Favorite Warframes</p>
+        <div class="container">
+            
+            <div class="caixa" data-aos = "fade-right" data-aos-delay = "100">
+                <img class="image" src="/src/images/VoidrigFull.webp" alt="Voidrig">
+                <p>Voidrig</p>
+            </div>
+            
+            <div class="caixa" data-aos = "fade-right" data-aos-delay = "200">
+                <img class="image" src="/src/images/Voruna.webp" alt="Voruna">
+                <p>Voruna</p>
+            </div>
+            
+            <div class="caixa" data-aos = "fade-left" data-aos-delay = "300">
+                <img class="image" src="/src/images/Dante.webp" alt="Dante">
+                <p>Dante</p>
+            </div>
+            
+            <div class="caixa" data-aos = "fade-left" data-aos-delay = "400">
+                <img class="image" src="/src/images/Garuda.webp" alt="Garuda">
+                <p>Garuda</p>
+            </div>
+            
+            <div class="caixa" data-aos = "fade-right" data-aos-delay = "100">
+                <img class="image" src="/src/images/Atlas.webp" alt="Atlas">
+                <p>Atlas</p>
+            </div>
+            
+            <div class="caixa" data-aos = "fade-right" data-aos-delay = "200">
+                <img class="image" src="/src/images/Wisp.webp" alt="Wisp">
+                <p>Wisp</p>
+            </div>
+            
+            <div class="caixa" data-aos = "fade-left" data-aos-delay = "300">
+                <img class="image" src="/src/images/Valkyr.webp" alt="Valkyr">
+                <p>Valkyr</p>
+            </div>
+            
+            <div class="caixa" data-aos = "fade-left" data-aos-delay = "400">
+                <img class="image" src="/src/images/Protea.webp" alt="Protea">
+                <p>Protea</p>
+            </div>
+        </div>
+    </section>
+    <section class="selecao">
+        <p class="selecao__title">Favorite Equipment/Summons</p>
+        <div class="selecao__container">
+            <div >
+                <p class="selecao__container__banda">Primary Weapons</p>
+                <ul class="selecao__lista">
+                    <li class="selecao__lista__item" data-aos="fade-right">
+                        <img class="selecao__lista__image" src="/src/images/Acceltra.webp" alt="">
+                        <p>Acceltra</p>
+                    </li>
+                    <li class="selecao__lista__item" data-aos="fade-right" data-aos-delay = "100">
+                        <img class="selecao__lista__image" src="/src/images/Cedo.webp" alt="">
+                        <p>Cedo</p>
+                    </li>
+                    <li class="selecao__lista__item" data-aos="fade-right" data-aos-delay = "200">
+                        <img class="selecao__lista__image" src="/src/images/Phantasma.webp" alt="">
+                        <p>Phantasma</p>
+                    </li>
+                    <li class="selecao__lista__item" data-aos="fade-right" data-aos-delay = "300">
+                        <img class="selecao__lista__image" src="/src/images/FulminPrime.webp" alt="">
+                        <p>Fulmir Prime</p>
+                    </li>
+                    <li class="selecao__lista__item" data-aos="fade-right" data-aos-delay = "400">
+                        <img class="selecao__lista__image" src="/src/images/Nataruk.webp" alt="">
+                        <p>Nataruk</p>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <p class="selecao__container__banda">Secondary Weapons</p>
+                <ul class="selecao__lista">
+                    <li class="selecao__lista__item" data-aos="fade-left">
+                        <img class="selecao__lista__image" src="/src/images/Epitaph.webp" alt="">
+                        <p>Epitaph</p>
+                    </li>
+                    <li class="selecao__lista__item" data-aos="fade-left" data-aos-delay = "100">
+                        <img class="selecao__lista__image" src="/src/images/Catabolyst.webp" alt="">
+                        <p>Catabolyst</p>
+                    </li>
+                    <li class="selecao__lista__item" data-aos="fade-left" data-aos-delay = "200">
+                        <img class="selecao__lista__image" src="/src/images/EpitaphPrime.webp" alt="">
+                        <p>Epitaph Prime</p>
+                    </li>
+                    <li class="selecao__lista__item" data-aos="fade-left" data-aos-delay = "300">
+                        <img class="selecao__lista__image" src="/src/images/Grimoire.webp" alt="">
+                        <p>Grimoire</p>
+                    </li>
+                    <li class="selecao__lista__item" data-aos="fade-left" data-aos-delay = "400">
+                        <img class="selecao__lista__image" src="/src/images/Akarius.webp" alt="">
+                        <p>Akarius</p>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <p class="selecao__container__banda">Melee</p>
+                <ul class="selecao__lista">
+                    <li class="selecao__lista__item" data-aos="fade-right">
+                        <img class="selecao__lista__image" src="/src/images/ReaperPrime.webp" alt="">
+                        <p>Reaper Prime</p>
+                    </li>
+                    <li class="selecao__lista__item" data-aos="fade-right" data-aos-delay = "100">
+                        <img class="selecao__lista__image" src="/src/images/Syam.webp" alt="">
+                        <p>Syam</p>
+                    </li>
+                    <li class="selecao__lista__item" data-aos="fade-right" data-aos-delay = "200">
+                        <img class="selecao__lista__image" src="/src/images/Azothane.webp" alt="">
+                        <p>Azothane</p>
+                    </li>
+                    <li class="selecao__lista__item" data-aos="fade-right" data-aos-delay = "300">
+                        <img class="selecao__lista__image" src="/src/images/Redeemer.webp" alt="">
+                        <p>Redeemer</p>
+                    </li>
+                    <li class="selecao__lista__item" data-aos="fade-right" data-aos-delay = "400">
+                        <img class="selecao__lista__image" src="/src/images/Sarofang.webp" alt="">
+                        <p>Sarofang</p>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <p class="selecao__container__banda">Companions</p>
+                <ul class="selecao__lista">
+                    <li class="selecao__lista__item" data-aos="fade-left">
+                        <img class="selecao__lista__image" src="/src/images/ChesaKubrow.webp" alt="">
+                        <p>Chesa Kubrow</p>
+                    </li>
+                    <li class="selecao__lista__item" data-aos="fade-left" data-aos-delay = "100">
+                        <img class="selecao__lista__image" src="/src/images/PanzerVulpaphyla.webp" alt="">
+                        <p>Panzer Vulpaphyla</p>
+                    </li>
+                    <li class="selecao__lista__item" data-aos="fade-left" data-aos-delay = "200">
+                        <img class="selecao__lista__image" src="/src/images/Helios.webp" alt="">
+                        <p>Helios</p>
+                    </li>
+                    <li class="selecao__lista__item" data-aos="fade-left" data-aos-delay = "300">
+                        <img class="selecao__lista__image" src="/src/images/SmeetaKavat.webp" alt="">
+                        <p>Smeeta Kavat</p>
+                    </li>
+                    <li class="selecao__lista__item" data-aos="fade-left" data-aos-delay = "400">
+                        <img class="selecao__lista__image" src="/src/images/Dethcube.webp" alt="">
+                        <p>Dethcube</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="info">
+        <div class="container" data-aos="fade-right">
+            <p class="container__text">
+                Keep in touch with the development with WARFRAME, the ever updating RPG, for it's devs quite care about it.
+            </p>
+        </div>
+    </section>
+    <footer class="rodape">
+        <div class="container">
+            <p>© 2025 Vinicius Cruz</p>
+            <a href="https://github.com/Morschelangelo" target="_blank">
+                <img class="logo" src="/src/images/icons8-github-64.png" alt="Logo GitHub">
+            </a>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
